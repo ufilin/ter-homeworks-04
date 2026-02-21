@@ -33,7 +33,13 @@
   <img src="ter-04_2.1.png" width="800">
 </p>
   
+> Результат применения terraform-docs к созданному модулю:
+  
+[Terraform-docs](https://github.com/ufilin/ter-homeworks-04/blob/main/vpc/module_vpc.md #Перейти)
+  
 ##Задание 3
   
->
+
+
+
   
