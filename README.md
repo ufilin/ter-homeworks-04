@@ -33,13 +33,32 @@
   <img src="ter-04_2.1.png" width="800">
 </p>
   
-> Результат применения terraform-docs к созданному модулю:
+> Результат применения terraform-docs к созданному модулю:  
   
-[Terraform-docs](https://github.com/ufilin/ter-homeworks-04/blob/main/vpc/module_vpc.md "Перейти")
+[Terraform-docs](https://github.com/ufilin/ter-homeworks-04/blob/main/vpc/module_vpc.md "Посмотреть рузельтат")
   
-##Задание 3
+##Задание 3  
   
-
-
-
+>Удаляем все модули  
+   
+<p align="center">
+  <img src="ter-04_3.1.png" width="800">
+</p>
   
+> Восстанавливаем модули  
+  
+<p align="center">
+  <img src="ter-04_3.2.png" width="800">
+</p>
+  
+> Удаление можно сделать более короткой командой  
+  
+<p align="center">
+  <img src="ter-04_3.3.png" width="800">
+</p>
+  
+> Результат комманды terraform plan, без значимых изменений, только рекомендация добавить строчку в конфиге.  
+  
+<p align="center">
+  <img src="ter-04_3.4.png" width="800">
+</p> 
