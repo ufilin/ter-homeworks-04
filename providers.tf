@@ -5,6 +5,25 @@ terraform {
     }
   }
   required_version = "~>1.12.0"
+  
+  backend "s3" {
+    shared_credentials_files = [ "~/netology/.aws/credentials" ]
+    profile = "netology"
+    bucket = "terstate"
+    key = "terraform.tfstat"
+    region = "ru-central1"
+
+    use_lockfile = true
+
+    endpoints = {
+      s3 = "https://storage.yandexcloud.net"
+    }
+
+    skip_region_validation = true
+    skip_credentials_validation = true
+    skip_requesting_account_id = true
+    skip_s3_checksum = true
+  }
 }
 
 provider "yandex" {
