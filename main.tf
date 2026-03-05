@@ -9,7 +9,7 @@ module "vpc" {
 }
 
 module "test-vm" {
-  source         = "git::https://github.com/udjin10/yandex_compute_instance.git?ref=main"
+  source         = "git::https://github.com/udjin10/yandex_compute_instance.git?ref=4d05fab828b1fcae16556a4d167134efca2fccf2"
   env_name       = "develop" 
   count = length(var.labels["owner"])
   network_id     = module.vpc.vpc_details.network_id
